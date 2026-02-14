@@ -201,10 +201,10 @@ const playerImg = {
   bellyFlex: new Image(),
   bellyCheer: new Image(),
 };
-playerImg.leanFlex.src  = "assets/player/player_lean_flex.png";
-playerImg.leanCheer.src = "assets/player/player_lean_cheer.png";
-playerImg.bellyFlex.src = "assets/player/player_beerbelly_flex.png";
-playerImg.bellyCheer.src= "assets/player/player_beerbelly_cheer.png";
+playerImg.leanFlex.src  = "player/player_lean_flex.png";
+playerImg.leanCheer.src = "player/player_lean_cheer.png";
+playerImg.bellyFlex.src = "player/player_beerbelly_flex.png";
+playerImg.bellyCheer.src= "player/player_beerbelly_cheer.png";
 
 const itemImg = {
   normal: new Image(),
@@ -212,10 +212,10 @@ const itemImg = {
   big: new Image(),
   bomb: new Image(),
 };
-itemImg.normal.src = "assets/items/bottle_normal.png";
-itemImg.bonus.src  = "assets/items/bottle_bonus.png";
-itemImg.big.src    = "assets/items/bottle_big.png";
-itemImg.bomb.src   = "assets/items/bomb.png";
+itemImg.normal.src = "items/bottle_normal.png";
+itemImg.bonus.src  = "items/bottle_bonus.png";
+itemImg.big.src    = "items/bottle_big.png";
+itemImg.bomb.src   = "items/bomb.png";
 
 let loaded = 0;
 const ALL_IMAGES = { ...playerImg, ...itemImg };
